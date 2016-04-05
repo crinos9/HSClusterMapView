@@ -1,6 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
-  
-pod "HSClusterMapView", :path => "../"
-pod "GoogleMaps"
+
 user_frameworks!
+
+pod "GoogleMaps"
+pod "HSClusterMapView", :path => "../"
