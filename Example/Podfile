@@ -3,5 +3,4 @@ platform :ios, '8.0'
 
 user_frameworks!
 
-pod "GoogleMaps"
 pod "HSClusterMapView", :path => "../"
